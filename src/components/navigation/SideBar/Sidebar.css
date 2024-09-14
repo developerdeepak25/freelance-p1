@@ -1,0 +1,28 @@
+/* .logo{
+    position: absolute;
+    top: 44px;
+    left: 20px;
+} */
+
+.navItem-content {
+  transition: 0.2s ease-in-out;
+}
+.navText {
+  transition: 0.4s ease-in-out;
+}
+.navItemsList:hover .navItem-content {
+  width: 136px;
+  /* justify-content: left; */
+  /* transition: .1s ease-in-out; */
+}
+.navItemsList:hover .navText {
+  /* transition: .4s ease-in-out; */
+  opacity: 0.5;
+}
+.navItem:hover .navText {
+    transition: 0s;
+    opacity: 1;
+}
+.navItem.active .navText {
+    opacity: 1;
+}

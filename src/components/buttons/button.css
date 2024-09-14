@@ -1,0 +1,36 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 0.75px solid #000000;
+}
+.btn-round {
+  box-shadow: 0.75px 1.5px 0px 0px #baa1ff;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+
+  height: "52px";
+}
+.btn-topbar {
+  box-shadow: 1px 3px 0px 0px #baa1ff;
+  background-color: #fff;
+  display: flex;
+  border-radius: 90px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 6px; */
+  border: 1px solid #5e3ac0;
+}
+@media (min-width: 0) {
+  .btn-round {
+    width: 38px;
+  }
+}
+@media (min-width: 600px) {
+  .btn-round {
+    width: 52px;
+  }
+}

@@ -1,0 +1,28 @@
+/* .view_all {
+  color: var(--violet);
+  font-size: 18px;
+  font-weight: 600;
+} */
+
+.bg_cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.section_border {
+  border: 2px solid #fff;
+}
+.rounder_section_main {
+  border-radius: 32px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #0C0C0C9E;
+  opacity: 1;
+  backdrop-filter: blur(5px);
+
+}
+/* this css are to be applied to each and every page so that bg and page works fine */

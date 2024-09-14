@@ -1,0 +1,45 @@
+.page_wrapper {
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* padding-top: 44px; */
+  position: relative;
+  background-image: url("/public/images/homeBgImage.png");
+}
+
+.page_bg_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* z-index: -1; */
+}
+
+.page_inner_wrapper {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  position: relative;
+}
+
+@media (min-width: 0px) {
+  .page_inner_wrapper {
+    /* /this are height of top and bottom nav */
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+}
+
+@media (min-width: 600px) {
+  .page_inner_wrapper {
+    padding-bottom: 0;
+    padding-bottom: 0;
+  }
+}
