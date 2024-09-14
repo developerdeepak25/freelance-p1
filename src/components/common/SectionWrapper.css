@@ -38,6 +38,7 @@
     width: 100vw;
     padding: 16px;
     margin: 20px 0;
+    margin-bottom: 20px;
   }
   .section-heading {
     font-size: 20px;
@@ -46,7 +47,7 @@
     font-size: 12px;
   }
 }
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
    .section-wrapper {
      width: 100vw;
      padding: 16px;
@@ -54,7 +55,7 @@
      margin-bottom: 80px;
    }
 
- }
+ } */
 
 /* desktop */
 /* @media (min-width: 600px) {
@@ -85,6 +86,8 @@
   .section-wrapper {
     width: var(--content-width-desktop);
     padding: 40px;
+     margin: 20px 0;
+     margin-bottom: 40px;
   }
   .section-heading {
     font-size: 34px;

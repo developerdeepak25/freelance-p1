@@ -12,7 +12,7 @@ const PageWrapperWithFooter
         <Box sx={{ position: "relative" }}>
         {children}
         </Box>
-        <Footer />
+        {/* <Footer /> */}
       </dix>
     </div>
   );

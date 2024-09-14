@@ -7,11 +7,13 @@
   display: grid;
   flex-direction: row;
   grid-template-columns: 1fr 1fr 1fr;
-  position: relative;
+  position: fixed;
+  margin: 0 auto;
   bottom: 0;
 
   padding: 3px 14px;
-  background-color: #0808089e;
+  /* background-color: #0808089e; */
+  background-color: #000;
   border-radius: 40px;
   border-width: 1px 1px 0px 1px;
   border-radius: 17px 17px 0 0;
@@ -21,6 +23,7 @@
   border-color: #434343;
   z-index: 99;
   margin-top: 60px;
+  transform: translateX(-14px);
 }
 
 @media (min-width: 0px) {

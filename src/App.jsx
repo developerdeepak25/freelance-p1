@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import BottomBar from "./components/navigation/BottomBar/BottomBar";
 import TopBar from "./components/navigation/TopbBar/TopBar";
 import Habit from "./pages/Habit/Habit";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/habit" element={<Habit />} />
         </Routes>
+      <Footer/>
       </div>
       <BottomBar/>
     </>
