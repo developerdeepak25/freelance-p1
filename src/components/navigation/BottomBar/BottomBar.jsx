@@ -77,7 +77,7 @@ const BottomBar = () => {
           icon={<ProgressIcon />}
           label="Progress"
           component={NavLink}
-          to="/progress"
+          to="/habit2"
           sx={{
             "&.Mui-selected": {
               "& .MuiBottomNavigationAction-label": {

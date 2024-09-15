@@ -16,7 +16,7 @@ const sidebarItems = [
   // { text: "Notification", icon: <NotificationIcon /> },
   { text: "Explore", icon: <ExploreIcon />, path: "/habit" },
   { text: "Todo", icon: <HomeIcon />, path: "/" },
-  { text: "Progress", icon: <ProgressIcon />, path: "/add-path" },
+  { text: "Progress", icon: <ProgressIcon />, path: "/habit2" },
   { text: "Cherish", icon: <GalleryIcon />, path: "/add-path" },
   // { text: "Subrah...", icon: < /> },, path:'/add-path'
 ];

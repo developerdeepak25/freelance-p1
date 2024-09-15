@@ -17,8 +17,7 @@ const Home = () => {
         </div>
       </div> */}
       <PageWrapperWithFooter>
-            <InsightSecttion />
-
+        <InsightSecttion />
       </PageWrapperWithFooter>
     </>
   );
