@@ -49,7 +49,7 @@ const BottomBar = () => {
           icon={<ExploreIcon />}
           label="Explore"
           component={NavLink}
-          to="/explore"
+          to="/habit"
           sx={{
             "&.Mui-selected": {
               "& .MuiBottomNavigationAction-label": {

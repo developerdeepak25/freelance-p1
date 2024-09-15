@@ -24,13 +24,68 @@
   /* padding: 6px; */
   border: 1px solid #5e3ac0;
 }
+
+.cb-button {
+  background: #ffffff;
+  box-shadow: 1.55px 3.1px 0px 0px #baa1ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cb-button.primary {
+  border: 1.71px solid #3e218d;
+  height: 49px;
+  border-radius: 12px;
+  padding: 14px 25px 14px 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cb-button.secondary {
+}
+
+.gradient-btn {
+  height: 36px;
+  background: linear-gradient(270deg, #211249 0%, #000000 100%);
+  border: 1px solid #bebebe;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
 @media (min-width: 0) {
   .btn-round {
     width: 38px;
+  }
+  .cb-button.primary {
+    height: 32px;
+    padding: 8px 16px 8px 16px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  .gradient-btn {
+    font-size: 10px;
+    height: 27px;
   }
 }
 @media (min-width: 600px) {
   .btn-round {
     width: 52px;
+  }
+  .cb-button.primary {
+    height: 49px;
+    padding: 14px 25px 14px 25px;
+    font-size: 18px;
+    border-radius: 12px;
+  }
+  .gradient-btn {
+    font-size: 14px;
+    padding: 10px;
+    height: 36px;
   }
 }
