@@ -1,11 +1,16 @@
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+
 const IceCube = () => {
+  const theme = useTheme();
+  const isXs = useMediaQuery(theme.breakpoints.up("xs"));
+
+  let size;
+  if (isXs) size = 28;
+  else size = 39;
+
   return (
-    <svg
-      width="40"
-      height="39"
-      viewBox="0 0 40 39"
-      fill="none"
-    >
+    <svg width={size} height={size} viewBox="0 0 40 39" fill="none">
       <path
         d="M19.6297 8.15366L18.6557 6.8956C18.5002 6.69476 18.2747 6.56701 18.0273 6.50958C17.6929 6.43198 17.4126 6.20523 17.2669 5.89416L16.979 5.2793L13.6604 7.08013C9.72517 9.21562 7.27441 13.3338 7.27441 17.8112V24.9993H15.4231V19.0813C15.4231 15.5019 16.6168 12.0247 18.8154 9.20008L19.6297 8.15366Z"
         fill="url(#paint0_linear_13635_4585)"
@@ -408,6 +413,6 @@ const IceCube = () => {
       </defs>
     </svg>
   );
-}
+};
 
-export default IceCube
+export default IceCube;

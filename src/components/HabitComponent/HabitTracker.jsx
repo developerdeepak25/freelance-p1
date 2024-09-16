@@ -1,6 +1,4 @@
-import { Box, Typography } from "@mui/material";
-import React from "react";
-import LockIcon from "../../assets/LockIcon";
+import { Box } from "@mui/material";
 import CBButton from "../buttons/CBButton";
 import theme from "../../theme/theme";
 import TrackerDay from "../TrackerDay/TrackerDay";

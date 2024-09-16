@@ -32,7 +32,7 @@ const HabitHeader = () => {
     >
       <img
         className="header-image"
-        src="/public/images/HabitSectionHeaderImage.png"
+        src="/images/HabitSectionHeaderImage.png"
         // style={{minHeight:'100%', minWidth: '100%', backgroundPosition: 'center', backgroundSize: 'cover'}}
       />
       <Box

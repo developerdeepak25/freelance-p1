@@ -1,13 +1,14 @@
+import { Box } from "@mui/material";
 
-const CBButton = ({ children, varient = "primary" }) => {
+const CBButton = ({ children, varient = "primary" ,sx}) => {
   return (
-    <div
+    <Box sx={sx}
       className={`cb-button ${
         varient === "secondary" ? "secondary" : "primary"
       } `}
     >
       {children}
-    </div>
+    </Box>
   );
 };
 

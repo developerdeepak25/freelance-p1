@@ -6,7 +6,7 @@
   align-items: center;
   /* padding-top: 44px; */
   position: relative;
-  background-image: url("/public/images/homeBgImage.png");
+  background-image: url("/images/homeBgImage.png");
 }
 
 .page_bg_overlay {
